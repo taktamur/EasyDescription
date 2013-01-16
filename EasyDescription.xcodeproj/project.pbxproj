@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA0185B16A6E3B300EC7404 /* NSObject+EasyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0185A16A6E3B300EC7404 /* NSObject+EasyDescription.m */; };
 		3BDECE5316A6D4F300386A6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDECE5216A6D4F300386A6A /* UIKit.framework */; };
 		3BDECE5516A6D4F300386A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDECE5416A6D4F300386A6A /* Foundation.framework */; };
 		3BDECE5716A6D4F300386A6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDECE5616A6D4F300386A6A /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 		3BDECE7316A6D4F300386A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDECE5416A6D4F300386A6A /* Foundation.framework */; };
 		3BDECE7B16A6D4F300386A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BDECE7916A6D4F300386A6A /* InfoPlist.strings */; };
 		3BDECE7E16A6D4F300386A6A /* EasyDescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDECE7D16A6D4F300386A6A /* EasyDescriptionTests.m */; };
+		4D303203CA2343DF821BF2CF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B12980368467C8C1243FC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BA0185916A6E3B300EC7404 /* NSObject+EasyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EasyDescription.h"; sourceTree = "<group>"; };
+		3BA0185A16A6E3B300EC7404 /* NSObject+EasyDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EasyDescription.m"; sourceTree = "<group>"; };
 		3BDECE4E16A6D4F300386A6A /* EasyDescription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDescription.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDECE5216A6D4F300386A6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BDECE5416A6D4F300386A6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		3BDECE7A16A6D4F300386A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BDECE7C16A6D4F300386A6A /* EasyDescriptionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyDescriptionTests.h; sourceTree = "<group>"; };
 		3BDECE7D16A6D4F300386A6A /* EasyDescriptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyDescriptionTests.m; sourceTree = "<group>"; };
+		A068F3AF56F8480B840CDD3B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DC7B12980368467C8C1243FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				3BDECE5316A6D4F300386A6A /* UIKit.framework in Frameworks */,
 				3BDECE5516A6D4F300386A6A /* Foundation.framework in Frameworks */,
 				3BDECE5716A6D4F300386A6A /* CoreGraphics.framework in Frameworks */,
+				4D303203CA2343DF821BF2CF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				3BDECE7616A6D4F300386A6A /* EasyDescriptionTests */,
 				3BDECE5116A6D4F300386A6A /* Frameworks */,
 				3BDECE4F16A6D4F300386A6A /* Products */,
+				A068F3AF56F8480B840CDD3B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				3BDECE5416A6D4F300386A6A /* Foundation.framework */,
 				3BDECE5616A6D4F300386A6A /* CoreGraphics.framework */,
 				3BDECE7016A6D4F300386A6A /* SenTestingKit.framework */,
+				DC7B12980368467C8C1243FC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +124,8 @@
 				3BDECE6116A6D4F300386A6A /* AppDelegate.h */,
 				3BDECE6216A6D4F300386A6A /* AppDelegate.m */,
 				3BDECE5916A6D4F300386A6A /* Supporting Files */,
+				3BA0185916A6E3B300EC7404 /* NSObject+EasyDescription.h */,
+				3BA0185A16A6E3B300EC7404 /* NSObject+EasyDescription.m */,
 			);
 			path = EasyDescription;
 			sourceTree = "<group>";
@@ -162,6 +173,7 @@
 				3BDECE4A16A6D4F300386A6A /* Sources */,
 				3BDECE4B16A6D4F300386A6A /* Frameworks */,
 				3BDECE4C16A6D4F300386A6A /* Resources */,
+				1D970BC8A09E42B9AA8EBCD0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "田村 孝文";
+				ORGANIZATIONNAME = "Áî∞Êùë Â≠ùÊñá";
 			};
 			buildConfigurationList = 3BDECE4816A6D4F300386A6A /* Build configuration list for PBXProject "EasyDescription" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -241,6 +253,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1D970BC8A09E42B9AA8EBCD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		3BDECE6D16A6D4F300386A6A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +289,7 @@
 			files = (
 				3BDECE5F16A6D4F300386A6A /* main.m in Sources */,
 				3BDECE6316A6D4F300386A6A /* AppDelegate.m in Sources */,
+				3BA0185B16A6E3B300EC7404 /* NSObject+EasyDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +383,7 @@
 		};
 		3BDECE8216A6D4F300386A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A068F3AF56F8480B840CDD3B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyDescription/EasyDescription-Prefix.pch";
@@ -367,6 +395,7 @@
 		};
 		3BDECE8316A6D4F300386A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A068F3AF56F8480B840CDD3B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyDescription/EasyDescription-Prefix.pch";
@@ -429,6 +458,7 @@
 				3BDECE8316A6D4F300386A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BDECE8416A6D4F300386A6A /* Build configuration list for PBXNativeTarget "EasyDescriptionTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +467,7 @@
 				3BDECE8616A6D4F300386A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
